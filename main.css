@@ -104,3 +104,25 @@ body {
     transform: rotateY(180deg);
     pointer-events: none;
 }
+
+
+@media (max-width: 767px) {
+
+    .memory-game-blocks {
+        display: flex;
+        width: 600px;
+        flex-wrap: wrap;
+        margin: 20px auto;
+    }
+
+    .memory-game-blocks .game-block {
+        height: 200px;
+        transition: transform .5s;
+        transform-style: preserve-3d;
+        cursor: pointer;
+        position: relative;
+        flex: 1 0 200px;
+        margin: 0 10px 20px;    
+    }
+
+}
