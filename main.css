@@ -110,13 +110,14 @@ body {
 
     .memory-game-blocks {
         display: flex;
-        width: 600px;
+        width: 80%;
         flex-wrap: wrap;
         margin: 20px auto;
     }
 
     .memory-game-blocks .game-block {
         height: 200px;
+        width: 50%;
         transition: transform .5s;
         transform-style: preserve-3d;
         cursor: pointer;
