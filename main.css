@@ -139,7 +139,7 @@ body {
         cursor: pointer;
         position: relative;
         flex: 1 0 70px;
-        margin: 0 6px 10px;    
+        margin: 0 10px 15px;    
     }
 
     .memory-game-blocks .game-block .front::before {
