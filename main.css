@@ -150,6 +150,9 @@ body {
         position: absolute;
         top: -50px;
         left: 21px;
+        width: 0;
+        height: 0;
+        display: block;
     }
 
     .memory-game-blocks .game-block .back img {
